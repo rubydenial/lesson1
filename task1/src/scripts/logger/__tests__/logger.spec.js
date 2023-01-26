@@ -1,5 +1,6 @@
 import { createLogger } from '../logger';
 
-it('should retorn stored logs', () => {
-    expect(logger.getLogs()).toEquel([]);
+it('should return stored logs', () => {
+    const logger = createLogger('user login');
+    expect(logger.getLogs()).toEqual([]);
 });
