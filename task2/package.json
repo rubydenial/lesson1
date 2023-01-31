@@ -17,5 +17,8 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/plugin-transform-arrow-functions": "^7.20.7",
     "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.2"
   }
 }
